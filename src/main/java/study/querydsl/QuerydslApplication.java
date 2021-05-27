@@ -8,10 +8,10 @@ import org.springframework.context.annotation.Bean;
 import javax.persistence.EntityManager;
 
 @SpringBootApplication
-public class QuerydlsApplication {
+public class QuerydslApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(QuerydlsApplication.class, args);
+		SpringApplication.run(QuerydslApplication.class, args);
 	}
 
 	@Bean
